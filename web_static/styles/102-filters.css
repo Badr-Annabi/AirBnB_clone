@@ -93,3 +93,33 @@ section.filters button:hover {
     margin-left: 50px;
     margin-bottom: 0px;
 }
+
+@media screen and (max-width: 575px) {
+    .filters {
+        width: 100px;
+    }
+    .filters button {
+        width: 90%;
+    }
+    .filters .locations,
+    .filters .amenities {
+        width: 100%;
+    }
+
+    .filters .locations h4 {
+        position: relative;
+        top: -6px;
+    }
+
+    .filters .amenities h4 {
+        position: relative;
+        top: -6px;
+    }
+
+    .filters .locations {
+        border-bottom: 1px solid #dddddd;
+        width: 100%;
+    }
+    
+
+}
